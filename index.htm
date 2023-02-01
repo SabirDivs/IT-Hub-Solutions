@@ -1,0 +1,956 @@
+<html lang="en">
+<head>
+        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KNTPZVF');
+    </script>
+        <!-- End Google Tag Manager -->
+    
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    
+
+    <title>IT Hub&Solutions</title>
+
+    <link rel="icon" href="./public/assets-app/img/logos/hub&solution-logo.png" type="image/x-icon"/>
+
+    <!-- Fontawesome Css -->
+    <link href="./public/assets-app/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!--  Bootstrap Css -->
+    <link href="./public/assets-app/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--  Owl Carousel Min Css -->
+    <link href="./public/assets-app/css/owl.carousel.min.css" rel="stylesheet">
+    <!-- Owl Theme Default -->
+    <link href="./public/assets-app/css/owl.theme.default.min.css" rel="stylesheet">
+
+    <!--  Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <!--  Animate css -->
+    <link href="./public/assets-app/css/animate.min.css" rel="stylesheet">
+    <!-- Style Css -->
+    <link href="./public/assets-app/css/style.css?v=3.1.5.2" rel="stylesheet">
+    <link href="./public/assets-app/css/spinner.css" rel="stylesheet">
+
+    <!-- Custom Style CSS -->
+    <style>
+    #custom-button-slider {
+        position: absolute;
+        border: 2px solid #fff;
+        bottom: 15px;
+        color: #fff;
+        padding: 1px 25px;
+        font-weight: bold;
+        font-size: 2.0rem !important;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+    #custom-button-slider:hover {
+        background-color: var(--orange);
+    }
+
+    @media  only screen and (max-width: 767px) {
+        #custom-button-slider {
+        bottom: 5px;
+        font-size: 1.5rem !important;
+        padding: 0px 15px;
+        }
+    }
+</style>
+    <style>
+        .form-group.required .label:after {
+            content:"*";
+            color:red;
+        }
+        label.error.is-invalid{
+            width: 100%;
+            margin-top: .25rem;
+            font-size: 1.5rem;
+            color: #dc3545;
+        }
+
+        .marquee-div {
+            background-color: red;
+            color: white;
+            height: 3rem;
+            line-height: 3rem;
+        }
+        .marquee-div a {
+            color: white;
+            font-weight: bold;
+        }
+        .marquee-div a:hover, .marquee-div a:focus{
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNTPZVF"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    <!-- Added by Ihsan Ullah :: Start -->
+
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "IT Hub&Solutions",
+        "url": "https://IT Hub&Solutions.com/",
+        "logo": {
+            "@context": "http://schema.org",
+            "@type": "ImageObject",
+            "url": "./public/assets-app/img/logos/logo.png"
+        },
+        "description": "",
+        "name": "IT Hub&Solutions",
+        "sameAs": [
+            "https://www.facebook.com/",
+            "https://twitter.com/",
+            "https://www.instagram.com/",
+            "https://www.youtube.com/channel/",
+            "https://www.linkedin.com/"
+        ]
+        }
+    </script>
+ <!-- Start SPINNER -->
+<div id="spinner-back"></div>
+<div id="spinner-front">
+    <img src="./public/assets-app/img/ajax-loader.gif"/><br>
+    Now loading...
+</div>
+<!-- End SPINNER -->
+
+
+
+<!-- Start Navigation -->
+<style>
+	.navbar .nav-item .dropdown-menu{  opacity: 0;  visibility: hidden; transition:.3s; margin-top:0; }
+    .navbar .nav-item .dropdown-menu li { background-color: #ffffff; }
+	.navbar .dropdown-menu.fade-up{ top:180%; padding: 0 !important; }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+    .navbar .dropdown-item:hover, .navbar .dropdown-item:focus { background-color: #F05C2F; }
+    .navbar .dropdown-item{ font-weight: 800; font-size: 1.5rem; }
+    .dropdown-toggle::after{
+        display: inline-block;
+    }
+    .navbar-brand img {
+        height: auto;
+        width: auto;
+    }
+    @media (max-width: 767px){
+        .navbar-brand img {
+            width: 19.3rem;
+            height: auto;
+        }
+    }
+    @media (max-width: 992px){
+        .navigation-wrap .navbar-light .nav-item.dropdown::before {
+            display: none;
+        }
+        .navbar-nav {
+            width: 100%;
+        }
+        .navigation-wrap .navbar-light .nav-item.show .dropdown-menu {
+            box-shadow: 0 0 4px #000;
+        }
+    }
+</style>
+<header id="header" class="navigation-wrap start-header start-style px-5">
+    <div class="container-fuild">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="./public/assets-app/img/logos/hub&solution-logo.png" style="height: 100px; width: 150px;" alt="hub&solution-logo"></a>
+                    <div class="mobile-bt-rap">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="head-support-btn d-block d-lg-none position-static">
+                            <a href="./support.html">
+                                <img src="./public/assets-app/img/hub&solutions-support-icon.png" alt="IT hub&solutions Support" />
+                                <span class="d-block text-white">Support</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto py-4 py-md-0">
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 order-2 order-lg-1">
+                                <a class="nav-link text-uppercase" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 order-3 order-lg-2">
+                                <a class="nav-link text-uppercase" href="./services.html">Services</a>
+                            </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 order-4 order-lg-3">
+                                <a class="nav-link text-uppercase" href="./trainings.html">Trainings</a>
+                            </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 order-12 order-lg-11">
+                                <a class="nav-link text-uppercase" href="./contact-us">Locations</a>
+                            </li>
+                        </ul>
+                        <div class="head-support-btn d-none d-lg-block">
+                            <a href="./support">
+                                <img src="./public/assets-app/img/hub&solutions-support-icon.png">
+                                <span class="d-block text-white">Support</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Navigation -->
+
+<!--   Start Main -->
+<main id="main" onload="detectBrowser()">
+        <!--  Start Banner Wrapper -->
+    <section class="main-slider">
+        <div class="bg-bar"></div>
+        <div class="container-fuild">
+            <div class="row no-gutters">
+                <div class="col-xl-5 col-lg-5 col-md-5 d-none d-lg-block pl-5 animate__animated animate__animated animate__fadeInLeft ">
+                    <div class="card slider-left-content border-0 px-4 ml-5 align-items-start justify-content-center h-100 height-auto">
+                        <h1 class="h-primary">IT Hub&solutions</h1>
+                        <p class="my-4">IT Hub&solutions is directing the people of ******</p>
+                        <div style="margin: 0 auto;">
+                            <img src="" class="mt-5" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-12">
+                    <div class="h-slides pr-4 pr-lg-5">
+                        <div class="owl-carousel home-slides hidden-xs">
+                                                            <div class="item">
+                                    <a href="#"  rel="noopener noreferrer">
+                                        <picture>
+                                            <source media="(min-width:767px)" srcset="./public/assets-app/img/banners/banner-3.jpeg" alt="FBA Wholesale">
+                                            <img src="./public/assets-app/img/banners/banner-3.jpeg" alt="FBA Wholesale" style="width:100%;">
+                                        </picture>
+                                    </a>
+                                                                        <div class="d-flex justify-content-center w-100">
+                                        <a href="#"  rel="noopener noreferrer" id="custom-button-slider">Apply Now</a>
+                                    </div>
+                                    </div>
+                                    <div class="item">
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source media="(min-width:767px)" srcset="" alt="">
+                                            <img src="" alt="" style="width:100%;">
+                                        </picture>
+                                    </a>
+                                    </div>
+                                                            <div class="item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source media="(min-width:767px)" srcset="" alt="banner">
+                                            <img src="" alt=" banner" style="width:100%;">
+                                        </picture>
+                                    </a>
+                                                                    </div>
+                                                            <div class="item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source media="(min-width:767px)" srcset="" alt="">
+                                            <img src="" alt="" style="width:100%;">
+                                        </picture>
+                                    </a>
+                                                                    </div>
+                                                            <div class="item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source media="(min-width:767px)" srcset="" alt="">
+                                            <img src="" alt="" style="width:100%;">
+                                        </picture>
+                                    </a>
+                                                                    </div>
+                                                            <div class="item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source media="(min-width:767px)" srcset="" alt="">
+                                            <img src="" alt="" style="width:100%;">
+                                        </picture>
+                                    </a>
+                                                                    </div>
+                                                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  End Banner Wrapper -->
+
+    <!--  Start Largest Wrapper -->
+    <section id="largest" class="largest-wrapper padd">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 my-0 my-lg-5">
+                        <h2 class="md-heading text-uppercase text-center my-5">KPK's best IT and Ecommerce Network</h2>
+                    </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//eaC66FQ00dDCyIkxISMMz6RE4fwG8HzwzRHoQQv8.png" alt="Tech-Based Education" />
+                                    </div>
+                                    <h3 class="l-heading">Tech-Based Education</h3>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//VwKpIqbSxERS6uC0kJks4JcW6dKO1J0ByHSxcGRr.png" alt="eCommerce Social Group" />
+                                    </div>
+                                    <h3 class="l-heading">eCommerce Social Group</h3>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//eFYIpINu9Oo6qKLt0a92S1XgXCvpIGuRACCtdkv6.png" alt="eCommerce Network" />
+                                    </div>
+                                    <h3 class="l-heading">eCommerce Network</h3>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//Swm8Q9nSUaTSNnmF1aDNE4A3EHPZtdZgCKwyURao.png" alt="Over *** Students" />
+                                    </div>
+                                    <h3 class="l-heading">Over *** Students</h3>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//k85J7tn8WjnaznI4sk8azD8CSSE5049Zmkob1l9C.png" alt="Educational Franchises" />
+                                    </div>
+                                    <h3 class="l-heading">Educational Franchises</h3>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//cKKfXBQ447CWawQo9qcGpkkRwSj4BPfWH8GQMQAt.png" alt="Professional Team of Mentors" />
+                                    </div>
+                                    <h3 class="l-heading">Professional Team of Mentors</h3>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//Ckss9fLbz77OYnhLGR2KDpaHsmd6kpG3hQumUztm.png" alt="Co-Working Space" />
+                                    </div>
+                                    <h3 class="l-heading">Co-Working Space</h3>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="col-lg-3 col-md-6 col-12 mb-5">
+                            <a href="#" target="">
+                                <div class="largest-block card h-100 height-auto align-items-center border-0">
+                                    <div class="l-icon">
+                                        <img src="./public/storage/uploads/admin/achievements-images//QxXHnWcELoMAqYw3vEqtOW2eZm1TCQp5PAHIAo7j.png" alt="Largest Video Repository" />
+                                    </div>
+                                    <h3 class="l-heading">Largest Video Repository</h3>
+                                </div>
+                            </a>
+                        </div>
+                                    </div>
+                <hr class="my-0 my-lg-4">
+            </div>
+        </div>
+    </section>
+    <!--  End Largest Wrapper -->
+
+    <!-- Start Counters Wrapper -->
+    <section class="counter-wrapper">
+        <div class="content">
+            <div class="container">
+                <div class="row no-gutters">
+                                            <div class="col-lg-3 col-6">
+                            <div class="counter-block" style="">
+                                <div class="row">
+                                    <div class="counter-icon col-3">
+                                        <img src="./public/storage/uploads/admin/objectives-images//fSMWM2eyfReU9B49nAgwRW3sn6uGdhaipJvKrdeQ.png" alt="Team Members" />
+                                    </div>
+                                    <div class="counter-details col-9">
+                                        <h5>***</h5>
+                                        <span>Team Members</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-3 col-6">
+                            <div class="counter-block" style="">
+                                <div class="row">
+                                    <div class="counter-icon col-3">
+                                        <img src="./public/storage/uploads/admin/objectives-images//8wmRXQof8GUjs2a3Rd88gYaq0NKBaTQRwe2mB8B1.png" alt="STUDENTS" />
+                                    </div>
+                                    <div class="counter-details col-9">
+                                        <h5>***</h5>
+                                        <span>STUDENTS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-3 col-6">
+                            <div class="counter-block" style="">
+                                <div class="row">
+                                    <div class="counter-icon col-3">
+                                        <img src="./public/storage/uploads/admin/objectives-images//nsVy2genBLjjjvtSE9yWvoNXlcztiTOe4VDnpWUy.png" alt="TRAINERS" />
+                                    </div>
+                                    <div class="counter-details col-9">
+                                        <h5>***</h5>
+                                        <span>TRAINERS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-3 col-6">
+                            <div class="counter-block" style="border-right: none;">
+                                <div class="row">
+                                    <div class="counter-icon col-3">
+                                        <img src="./public/storage/uploads/admin/objectives-images//DTakw61UeITojCRlR2aDaF8L0qG5Ee7OyAFNpZKT.png" alt="COURSES" />
+                                    </div>
+                                    <div class="counter-details col-9">
+                                        <h5>***</h5>
+                                        <span>COURSES</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Counters Wrapper -->
+
+    <!-- Start Our Mission Wrapper -->
+    <section class="mission-wrapper padd">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <picture>
+                            <source media="(min-width:992px)" srcset="">
+                            <img src="" alt="Asim Sikandar & *** photo in Public" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="row no-gutters align-items-center mission-contents">
+                    <div class="col-lg-6">
+                        <div class="mission-block">
+                            <h2 class="md-heading text-white mb-0">Our Mission</h2>
+                            <p class="info-rap text-white py-4">IT Hub&Solutions is dedicated to enabling Pakistan as one of the largest eCommerce hubs in the world. Our team has exclusively devoted to helping the people of this country become entrepreneurs and work on international platforms. We aim to create 2 million employment opportunities.</p>
+                            <a href="./mission" class="blue-btn">Find Out More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mission-icon-contents">
+                            <div class="row">
+                                                                    <div class="col-lg-6 col-6">
+                                        <div class="mission-rap mb-4 pb-4">
+                                            <div class="row">
+                                                <div class="mission-icon col-3">
+                                                    <img src="./public/storage/uploads/admin/milestones-images//aYEasKQBONcZJnoNnSySOYwCSfBJTB2BbPRoLs53.png" alt="NEW BUSINESSES IN PAKISTAN" />
+                                                </div>
+                                                <div class="mission-content col-9">
+                                                    <h5 class="mb-0">***</h5>
+                                                    <p>NEW BUSINESSES IN PAKISTAN</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="col-lg-6 col-6">
+                                        <div class="mission-rap mb-4 pb-4">
+                                            <div class="row">
+                                                <div class="mission-icon col-3">
+                                                    <img src="./public/storage/uploads/admin/milestones-images//BqiRxWc7esKSlRz8RgrizKLHnvWTsYqkFs3xl05z.png" alt="EXPORTS FOR THE WORLDWIDE" />
+                                                </div>
+                                                <div class="mission-content col-9">
+                                                    <h5 class="mb-0">***</h5>
+                                                    <p>EXPORTS FOR THE WORLDWIDE</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="col-lg-6 col-6">
+                                        <div class="mission-rap mb-4 pb-4">
+                                            <div class="row">
+                                                <div class="mission-icon col-3">
+                                                    <img src="./public/storage/uploads/admin/milestones-images//vjA6RU5H5KTkpj1JgXNum33V54gsK2h2Vs2jPWGq.png" alt="Freelance" />
+                                                </div>
+                                                <div class="mission-content col-9">
+                                                    <h5 class="mb-0">***</h5>
+                                                    <p>Freelance</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="col-lg-6 col-6">
+                                        <div class="mission-rap mb-4 pb-4">
+                                            <div class="row">
+                                                <div class="mission-icon col-3">
+                                                    <img src="./public/storage/uploads/admin/milestones-images//MoMTHgx1X5PU5hFZUxYCIz7bACAknhMB9eaSddHi.png" alt="ADD IN TO PAKISTAN ECONOMY BY 2030" />
+                                                </div>
+                                                <div class="mission-content col-9">
+                                                    <h5 class="mb-0">***</h5>
+                                                    <p>ADD IN TO PAKISTAN ECONOMY BY 2030</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Mission Wrapper -->
+
+    <!-- Start Offer Wrapper -->
+    <section class="offer-wrapper padd">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="offreing-heading pb-4">
+                            <h2 class="md-heading mb-0">WHAT WE OFFER</h2>
+                            <p class="info-rap mb-0">We’re a team of passionate, dedicated people who have one overreaching goal – Your Success is Our Success</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6 col-12">
+                        <div class="card offering-block blue-bg h-100 height-auto">
+                            <div class="offering-icon">
+                                <img src="./public/assets-app/img/hub&solutions-training-icon.png" alt="TRAINING PROGRAMS" />
+                            </div>
+                            <div class="offering-content">
+                                <h3 class="text-uppercase mb-0">TRAINING PROGRAMS</h3>
+                                <p class="info-rap text-white">Learn from the market’s best to gain exclusive insights on how to begin your Amazon eCommerce business. IT Hub&Solutions caters to students’ needs equally, training the youth for a future that would sustain the economy of the country. </p>
+                                <p class="info-rap text-white">We aim to enable youth towards an entrepreneurial mindset, creating business minds instead of jobholders. Our crown jewel, Enabling Video Series, serves as foundation for numerous freelancing options that one can use to generate several income streams. </p>
+                                <a href="./trainings.html" class="black-btn">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="card offering-block orange-bg h-100 height-auto">
+                            <div class="offering-icon">
+                                <img src="./public/assets-app/img/hub&solutions-services-icon.png" alt="World class services" />
+                            </div>
+                            <div class="offering-content">
+                                <h3 class="text-uppercase mb-0">World class services</h3>
+                                <p class="info-rap text-white">We aim to facilitate everyone that needs world-class eCommerce services. From concept to accomplishment, we collaborate transparently with investors and clients alike. We ensure to offer steadfast solutions with proactive approaches that would boost eCommerce productivity for our clients.</p>
+                                <p class="info-rap text-white">It is our mission to enable a business mindset and we empower businesses to take the leap of faith while enabling themselves to compete with the biggest brands internationally without fear or hurdles.</p>
+                                <a href="./services.html" class="black-btn">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Offer Wrapper -->
+
+    <!-- Start CAREER Wrapper -->
+    <section class="career-wrapper padd">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="career-heading pb-4">
+                            <h2 class="md-heading mb-0">Removing Barriers In Ecommerce Success </h2>
+                            <p class="info-rap mb-0">We’re striving to create an entrepreneurial ecosystem that would encompass excellence and brilliance </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6 col-12">
+                        <div class="career-block h-100 height-auto">
+                            <a href="#">
+                                <img src="" alt="Asim Sikandar—CEO of IT Hub&Solutions"/>
+                                <div class="career-content">
+                                    <h3 class="text-uppercase mb-0">Eng. Asim Sikandar </h3>
+                                    <span>CEO</span>
+                                    <a href="#" class="black-btn">Find out more</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="career-block h-100 height-auto">
+                            <a href="#">
+                                <img src="" alt="****—Co-Founder of IT Hub&Solutions" />
+                                <div class="career-content">
+                                    <h3 class="text-uppercase mb-0">Faisal Azhar</h3>
+                                    <span>COO & CO-FOUNDER</span>
+                                    <a href="#" class="black-btn">Find out more</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End CAREER Wrapper -->
+
+    <!-- Start Collaboration Wrapper -->
+    <section class="collaboration-wrapper padd">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="colt-heading">
+                            <h2 class="md-heading mb-0">Collaborated with </h2>
+                            <p class="info-rap mb-0">We take pride in collaborating with numerous government and private organizations in our venture to create Pakistan as an eCommerce hub.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters mt-5 px-3">
+                        <div class="col-lg-2 col-3">
+                            <div class="colbt-block">
+                                <img src="" alt="Smart Technologies Lab" />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-3">
+                            <div class="colbt-block">
+                                <img src="" alt="Collaboration 2" />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-3">
+                            <div class="colbt-block">
+                                <img src="" alt="Collaboration 3" />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-3">
+                            <div class="colbt-block">
+                                <img src="" alt="Collaboration 4" />
+                            </div>
+                        </div>
+                        
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mx-auto mt-5 text-center">
+                    <a href="./partners" class="blue-btn">Find out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Collaboration Wrapper -->
+
+    <!-- Start Developments Wrapper -->
+    <section class="development-wrapper padd clearfix">
+        <div class="container">
+            <div class="bg-rap mb-4">
+                <div class="img-industries">
+                                            <img src="./public/storage/uploads/admin/product-images//eLhoVpUYmo6MIjLTCWUtJMDfWMqXXwKtBF8rqCd1.jpg" class="img-fluid" data-object-fit="" alt="retail-large" style="opacity: 0;">
+                                            <img src="./public/storage/uploads/admin/product-images//LjHH8CbwWHJqMoIULsL0i6C5S2NmffwG1HxITKUD.jpg" class="img-fluid" data-object-fit="" alt="retail-large" style="opacity: 0;">
+                                            <img src="./public/storage/uploads/admin/product-images//AiHmISWa8boeb2DPZd6J5FDTf4Nfq3oZsW62PhAF.jpg" class="img-fluid" data-object-fit="" alt="retail-large" style="opacity: 0;">
+                                            <img src="./public/storage/uploads/admin/product-images//j88xb9uMKKc5g1m6oyqf8yPF4F45VJ6naXaVeUw5.jpg" class="img-fluid" data-object-fit="" alt="retail-large" style="opacity: 0;">
+                                            <img src="./public/storage/uploads/admin/product-images//2ktI3B9uAq4oybjzaiFxd800sbIMbWmKD6TT67EJ.jpg" class="img-fluid" data-object-fit="" alt="retail-large" style="opacity: 0;">
+                                    </div>
+                <div class="row no-gutters">
+                    <div class="col-12 col-lg-4">
+                        <div class="industry-box first d-flex align-items-center">
+                            <div class="top-sec-g">
+                                <h2 class="main-heading-g text-white">our DEVELOPMENTS</h2>
+                                <p>Established ********** developements onward</p>
+                                <a href="#" class="trans-btn">
+                                    View All
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="col-12 col-lg-4">
+                            <div class="industry-box d-flex justify-content-center align-items-center">
+                                <a href="#" class="industry-link" target="_blank"></a>
+                                <div class="inner">
+                                    <h2 class="industry-name">IT Hub&Solutions MARKETPLACE</h2>
+                                    <p>IT Hub&Solutions marketplace brings buyers and sellers together on one platform, giving uniform distribution of resources and income.</p>
+                                    <img class="d-none d-lg-inline-block" src="./public/assets-app/img/logos/hub&solution-logo.png" alt="IT Hub&Solutions" />
+                                    <i class="fas fa-chevron-down d-block d-lg-none"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="industry-box d-flex justify-content-center align-items-center">
+                                <a href="#" class="industry-link" target="_blank"></a>
+                                <div class="inner">
+                                    <h2 class="industry-name">ENABLING VIDEO SERIES</h2>
+                                    <p>The crown jewel of IT Hub&Solutions, Enabling Video Series features 200+ free courses for students to generate passive income streams from.</p>
+                                    <img class="d-none d-lg-inline-block" src="./public/storage/uploads/admin/product-images//FYCtijmHJKGeXCDsnuoAC85wQNmDh8HFFpTwN5R9.png" alt="ENABLING VIDEO SERIES" />
+                                    <i class="fas fa-chevron-down d-block d-lg-none"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="industry-box d-flex justify-content-center align-items-center">
+                                <a href="#" class="industry-link" target="_blank"></a>
+                                <div class="inner">
+                                    <h2 class="industry-name">CO-WORKING SPACE</h2>
+                                    <p>CO-WORKING SPACE intro</p>
+                                    <img class="d-none d-lg-inline-block" src="" alt="CO-WORKING SPACE" />
+                                    <i class="fas fa-chevron-down d-block d-lg-none"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="industry-box d-flex justify-content-center align-items-center">
+                                <a href="./certificates/" class="industry-link" target="_blank"></a>
+                                <div class="inner">
+                                    <h2 class="industry-name">IT Hub&Solutions CERTIFICATIONS</h2>
+                                    <p>Become an eCommerce certified specialist through IT Hub&Solutions certifications, increasing your worth in the world of eCommerce.</p>
+                                    <img class="d-none d-lg-inline-block" src="" alt="IT Hub&Solutions CERTIFICATIONS" />
+                                    <i class="fas fa-chevron-down d-block d-lg-none"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="industry-box d-flex justify-content-center align-items-center">
+                                <a href="./franchise.html" class="industry-link" target="_blank"></a>
+                                <div class="inner">
+                                    <h2 class="industry-name">IT Hub&Solutions FRANCHISES</h2>
+                                    <p>IT Hub&Solutions educational franchises will ensure eCommerce education for everyone, boosting eCommerce growth in the country.</p>
+                                    <img class="d-none d-lg-inline-block" src="./public/storage/uploads/admin/product-images//n0XF3l1cT5QMM02GUnyhAKhCtGnuXTfSc0Zs3KaR.png" alt="IT Hub&Solutions FRANCHISES" />
+                                    <i class="fas fa-chevron-down d-block d-lg-none"></i>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Developments Wrapper -->
+
+    <!-- Start Media group Wrapper -->
+    <section class="media-group-wrapper position-relative grey-bg padd">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="media-heading py-5">
+                            <h2 class="md-heading mb-0">AS Seen On</h2>
+                            <p class="info-rap mb-0">to help brands grow in the hyperconnected age</p>
+                        </div>
+                        <div class="media-images text-center">
+                            <picture>
+                                <source media="(min-width:767px)" srcset="">
+                                <img src="" alt="Where IT Hub&Solutions is seen" style="width:100%;" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mx-auto text-center my-5">
+                        <a href="#" class="blue-btn">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Media group Wrapper -->
+
+    <!--Start Footer Wrapper -->
+<footer class="footer container-fuild animate__animated animate__slideInUp">
+    <div class="footer-content">
+        <div class="footer-right-content row align-items-center no-gutters">
+            <div class="footer-social col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2">
+                <div class="card">
+                    <ul class="footer-social-list mb-0 pl-0">
+                        <li class="footer-social-item">
+                            <a href="https://www.facebook.com/" class="footer-social-link" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="https://twitter.com/" class="footer-social-link" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="https://www.instagram.com/" class="footer-social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="https://www.linkedin.com/company/" class="footer-social-link" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="https://www.youtube.com/channel" class="footer-social-link" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-logo-content col-xl-3 col-lg-3 col-md-10 col-sm-10 col-10">
+                <div class="card text-center">
+                    <img src="./public/assets-app/img/logos/hub&solution-footer-logo.png" height="100" width="150" alt="IT Hub&Solutions Logo" />
+                    <span class="d-block">We at IT Hub&Solutions aim to add</span>
+                    <strong class="d-block bg-br">****</strong>
+                    <span class="d-block"> Into Pakistan's Economy By 2030</span>
+                </div>
+            </div>
+            <div class="footer-menu-content col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
+                <ul class="menu-listed mb-0 py-5">
+                    <li class="menu-item"><a href="./about">About</a></li>
+                    <li class="menu-item"><a href="./services">Services</a></li>
+                    <li class="menu-item"><a href="./meetups">MeetUps</a></li>
+                    <li class="menu-item"><a href="./trainings">Trainings</a></li>
+                    <li class="menu-item"><a href="./contact-us">Our Locations</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-content col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+                <ul class="menu-listed mb-0 py-5 mr-4" >
+                    <li class="menu-item"><a href="./blog">Blog</a></li>
+                    <li class="menu-item"><a href="./career">Career</a></li>
+                    <li class="menu-item"><a href="./sponsorship">Sponsorship</a></li>
+                </ul>
+            </div>
+            <div class="footer-address-content col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="py-5">
+                    <h4 class="md-heading">Contact Us</h4>
+                    <p class="info-rap">We Would Love To Talk To You.</p>
+                    <strong><a href="tel:+92313 - 91 93 716"> +92313 - 91 93 716</a></strong>
+                    <hr class="footer-border">
+                    <a href="./support" class="blue-btn">CONTACT SUPPORT</a>
+                    <p class="info-rap pt-3">
+                        <span class="d-block info-rap">09:00 AM to 06:00 PM (Mon-Fri)</span>
+                        <span class="d-block info-rap">09:00 AM to 01:00 PM (Sat)</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Footer 01 -->
+    <div class="footer-bottom-02 grey-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="enablers-partners">
+                        <div class="our-partners-headings">
+                            <h3 class="md-heading">OUR FRIENDS</h3>
+                        </div>
+                        <div class="our-partners text-center">
+                            <img src="" alt="IT Hub&Solutions Friends">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Footer 02 -->
+    <div class="footer-bottom-03 grey-bg pb-4">
+        <div class="container">
+            <div class="footer-bottom-03-content d-flex flex-column flex-md-row justify-content-center align-items-center flex-wrap">
+                <div class="footer-bottom-left">
+                    <p class="mb-0 pr-0 pr-md-4">
+                        <a href="./terms-conditions" target="_blank">Terms & Conditions</a>  -
+                        <a href="./privacy-policy" target="_blank">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--  End Footer -->
+    <div class="sticky-icon d-lg-flex flex-column">
+        <a href="https://wa.me/+923139193716" target="_blank" title="Contact Us" class="apply"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</main>
+
+<!--  Jquery min -->
+<script src="./public/assets-app/plugins/jquery/jquery.min.js"></script>
+<!--   bootstrap bundle -->
+<script src="./public/assets-app/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--  Jquery easing -->
+<script src="./public/assets-app/plugins/jquery-easing/jquery.easing.min.js"></script>
+<!--   Owl carousel -->
+<script src="./public/assets-app/js/owl.carousel.min.js"></script>
+<!-- custom  js -->
+<script src="./public/assets-app/js/custom.js?v=1.0.0"></script>
+<script src="./public/assets-app/js/spinner.js"></script>
+<script src="./public/assets-app/js/jquery.device.detector.min.js"></script>
+
+<!--  JS Lib for marquee plugin -->
+<!--  Marquee MIN JS -->
+<script src="./public/assets-app/js/jquery.marquee.min.js" rel="stylesheet"></script>
+<script>
+    $(document).ready(function () {
+        $('.marquee-div').marquee({
+            speed: 80
+        });
+    });
+</script>
+
+<!-- Custom Scripts -->
+<script>
+    var datetimepickerIcons = {
+        time:'fa fa-clock-o',
+        date:'fa fa-calendar',
+        up:'fa fa-chevron-up',
+        down:'fa fa-chevron-down',
+        previous:'fa fa-chevron-left',
+        next:'fa fa-chevron-right',
+        today:'fa fa-crosshairs',
+        clear:'fa fa-trash-o',
+        close:'fa fa-times'
+    };
+
+    setTimeout(function(){
+        $('.alert-auto-hide').hide();
+    }, 4000);
+
+    function trackClick(action) {
+        var instance = $.fn.deviceDetector;
+
+        var device = 'Desktop';
+        if (!instance.isDesktop()) {
+            device = 'Mobile';
+        }
+
+        $.post({
+            url: "https://Hub&Solutions/click-stat",
+            data: {
+                '_token': $('meta[name="csrf-token"]').attr('content'),
+                'page_name': $(document).attr('title'),
+                'page_url': "https://Hub&Solutions",
+                'action': action,
+                'browser': instance.getBrowserName(),
+                'device': device,
+                'operating_system': instance.getOsName(),
+            }
+        });
+    }
+</script>
+
+
+</body>
+</html>

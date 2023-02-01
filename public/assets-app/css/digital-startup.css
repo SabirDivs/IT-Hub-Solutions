@@ -1,0 +1,883 @@
+/*==================================
+        Digital Startup page
+====================================*/
+
+section.startup-banner .content{
+    background: url(../img/pl-banner-bg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.startup-banner .content .startup-flex {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+section.startup-banner .content .startup-flex .icon {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+section.startup-banner .content .startup-flex .text {
+    border-bottom: 5px solid;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    width: calc(75%);
+    border-color: var(--orange);
+}
+section.startup-banner .content .custom-btn-color-revert:hover{
+    background-color: var(--orange);
+    border: 0.2rem solid var(--orange);
+}
+section.startup-banner .content .custom-btn-color{
+    background-color: var(--orange);
+    border: 0.2rem solid var(--orange);
+}
+section.startup-banner .content .custom-btn-color:hover{
+    background: var(--blue);
+    border: 0.2rem solid var(--blue);
+}
+section.startup-banner .content .startup-flex:last-child .text{
+    border: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+section.startup-courses .course-wrap {
+    display: flex;
+    justify-content: flex-start;
+
+}
+section.startup-courses .course-wrap .icon{
+    margin-right: 17px;
+}
+
+
+section.crash-course img{
+    width: 200px;
+    position: absolute;
+    top: -40px;
+}
+
+
+section.module.breakdown .accordion{
+    margin-top: 30px;
+}
+section.module.breakdown .accordion  button{
+    line-height: 1;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    transition: transform .35s;
+    text-transform: uppercase;
+}
+section.module.breakdown .accordion  button:before {
+    position: absolute;
+    right: 21px;
+    background: white;
+    top: 21px;
+    transform: rotate(88deg);
+    transition: transform .35s;
+    font-family: "Font Awesome 5 Free";
+    content: "\f309";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 22px;
+}
+section.module.breakdown .accordion button.btn.btn-link.collapsed:before{
+    transform: rotate(0deg);
+    transition: transform .35s;
+}
+section.module.breakdown .accordion  button:hover{
+    text-decoration: none;
+}
+section.module.breakdown .accordion  button span{
+    background: #F05C2F;
+    margin-right: 20px;
+    font-size: 2rem;
+
+}
+section.module.breakdown  .accordion > .card{
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+section.module.breakdown .accordion > .card:first-of-type {
+    border-radius: 5px !important;
+}
+
+
+section.module.breakdown  .accordion > .card  .card-body  h5 {
+    padding-left: 20px;
+
+}
+section.module.breakdown  .accordion > .card  .card-body ul.tr-module-inner {
+    padding-left: 38px;
+}
+section.module.breakdown  .accordion > .card  .card-body ul li {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+
+section.know-your-value .s-title {
+    margin-bottom: 70px;
+}
+section.know-your-value .card-wrap {
+    background: #F3F3F3;
+    padding: 20px 20px 20px;
+    text-align: center;
+    min-height: 423px;
+
+}
+section.know-your-value .card-wrap.card-t {
+    margin-top: -43px;
+}
+section.know-your-value .card-wrap .icon {
+    width: 113px;
+    margin: 0 auto;
+}
+section.know-your-value .card-wrap ul {
+    text-align: left;
+    padding-left: 25px;
+}
+section.know-your-value .card-wrap ul li{
+    font-size: 2rem;
+    padding-bottom: 5px;
+    padding-left: 0.2rem;
+    line-height: 3.4rem;
+}
+
+section.developing-brand ul li{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    font-size: 1.9rem;
+}
+
+
+section.smart-objectives .smart-objectives-inner {
+    background: #414141;
+    color: white;
+    border: 1px solid #707070;
+    padding: 30px;
+}
+
+section.smart-objectives .smart-objectives-inner p span{
+    display: block;
+    font-weight: 600;
+}
+
+section.business-plan .business-plan-head p {
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+}
+section.business-plan .cards-wrap {
+
+    margin-top: 35px;
+}
+section.business-plan p{
+    font-size: 1.9rem;
+}
+section.business-plan   .business-plan-card {
+    background: white;
+    border-radius: 9px;
+    padding: 20px 25px;
+    margin: 0 7px 22px;
+    min-height: 29rem;
+}
+section.business-plan   .business-plan-card p {
+    line-height: 3rem;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+section.swot-analysis .card-header {
+    border: 0;
+    padding: 16px 28px 16px;
+    border-radius: 0;
+}
+section.swot-analysis .swot-analysis-card .card-inner{
+    padding: 28px;
+    color: white;
+    min-height: 190px;
+}
+
+section.swot-analysis .swot-analysis-card.c-1 .card-header{
+    background: #0079CA;
+}
+
+section.swot-analysis .swot-analysis-card.c-1 .card-inner{
+    background: #1C9CF1;
+
+}
+section.swot-analysis .swot-analysis-card.c-2 .card-header{
+    background:#01386E;
+}
+section.swot-analysis .swot-analysis-card.c-2 .card-inner{
+    background: #002E5A;
+
+}
+section.swot-analysis .swot-analysis-card.c-3 .card-header{
+    background: #046985;
+}
+section.swot-analysis .swot-analysis-card.c-3 .card-inner{
+    background: #0181A4;
+
+}
+section.swot-analysis .swot-analysis-card.c-4 .card-header{
+    background: #542E5D;
+}
+section.swot-analysis .swot-analysis-card.c-4 .card-inner{
+    background: #6A3F74;
+
+}
+section.Ps-marketing .Ps-marketing-head  ul li{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    font-size: 1.9rem;
+}
+section.Ps-marketing .Ps-marketing-head p{
+    padding-right: 50px;
+}
+section.Ps-marketing .Ps-marketing-details {
+    padding: 45px 0 0;
+}
+section.Ps-marketing .Ps-marketing-details .card-header {
+    padding: 16px 28px 16px;
+
+}
+
+section.Ps-marketing .Ps-marketing-details .card-inner {
+    padding: 14px 25px 20px;
+    min-height: 396px;
+    margin-bottom: 30px;
+}
+section.Ps-marketing .Ps-marketing-details .card-inner ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+section.Ps-marketing .Ps-marketing-details .card-inner p {
+    padding-bottom: 6px;
+    font-size: 1.9rem;
+}
+section.Ps-marketing .Ps-marketing-details .card-inner ul {
+    padding: 0;
+    margin: 0;
+
+}
+section.Ps-marketing .Ps-marketing-details .card-inner ul li:before {
+    border-radius: 50%;
+    background: #F05C2F;
+    content: "";
+    height: 8px;
+    left: 0;
+    margin: -4px 0 0;
+    position: absolute;
+    top: 15px;
+    width: 8px;
+}
+section.Ps-marketing .Ps-marketing-details .card-inner.c-3{
+margin-bottom: 0;
+}
+section.Ps-marketing .Ps-marketing-details .card-inner.c-4{
+    margin-bottom: 0;
+}
+
+
+section.product-market .product-market-details img{
+    padding-right: 15px;
+    height: 100%;
+}
+
+section.moments-remembered {
+    padding: 60px 0 0;
+}
+section.moments-remembered  img{
+    margin-top: 40px;
+}
+
+section.marketing-funnel .fu-cards{
+    background-size: cover !important;
+    background-position: 100% !important;
+    background-repeat: no-repeat !important;
+    padding: 12px 19px;
+    color: white;
+}
+section.marketing-funnel .tofu-card {
+    background: url(../img/TOFU-bg.png);
+
+}
+section.marketing-funnel .mofu-card {
+    background: url(../img/MOFU-bg.png);
+
+}
+section.marketing-funnel .bofu-card {
+    background: url(../img/BOFU-bg.png);
+
+}
+
+
+
+section.marketing-funnel .fu-cards ul {
+    padding: 0;
+    margin: 0;
+}
+section.marketing-funnel .fu-cards ul li{
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+    font-size: 1.9rem;
+}
+section.marketing-funnel .fu-cards ul li:before{
+    border-radius: 50%;
+    background: #ffffff;
+    content: "";
+    height: 6px;
+    left: 0;
+    margin: -4px 0 0;
+    position: absolute;
+    top: 13px;
+    width: 6px;
+}
+section.marketing-funnel img {
+    padding: 0 10px;
+    height: 499px;
+    margin-top: 20px;
+}
+section.marketing-funnel .fu-details {
+    border-bottom: 2px solid #707070;
+    margin-bottom: 25px;
+    padding: 0 10px 15px;
+    padding-left: 0;
+}
+section.marketing-funnel .fu-cards p {
+    padding-bottom: 6px;
+    font-size: 1.9rem;
+}
+section.marketing-funnel .fu-details:last-child{
+    border: 0;
+    margin: 0;
+}
+section.marketing-funnel .fu-details h6 {
+    font-weight: 700;
+}
+
+section.marketing-funnel .fu-details:nth-child(1) h6.fu-title{
+    color:#98D4C4;
+    font-weight: 500;
+}
+section.marketing-funnel .fu-details:nth-child(2) h6.fu-title{
+    color:#8B9BB7;
+    font-weight: 500;
+}
+section.marketing-funnel .fu-details:nth-child(3) h6.fu-title{
+    color:#AAA1B0;
+    font-weight: 500;
+}
+
+section.State-Company .State-Company-card {
+    background: white;
+    padding: 17px 30px;
+    margin-top: 30px;
+    min-height: 296px;
+}
+
+
+section.strategy-tactics h3.sb-title {
+    padding: 8px 25px;
+
+}
+
+section.buyer-personas .buyer-personas-card {
+    margin-top: 55px;
+}
+section.buyer-personas .buyer-personas-card ul {
+    padding: 0;
+    margin: 0;
+
+}
+section.buyer-personas .buyer-personas-card ul li{
+    list-style: none;
+    font-weight: 600;
+    border-bottom: 2px solid #707070;
+    padding: 25px 0;
+}
+section.buyer-personas .buyer-personas-card ul li:last-child {
+    border: 0;
+}
+section.buyer-personas .buyer-personas-card img{
+    padding: 0 20px;
+}
+section.buyer-personas .text-c1{
+    color: #75D351;
+}
+section.buyer-personas .text-c2{
+    color: #FF7DA7;
+}
+section.buyer-personas .text-c3{
+    color: #749EB4;
+}
+section.buyer-personas .text-c4{
+    color: #E684D8;
+}
+section.buyer-personas .text-c5{
+    color: #01B1EC;
+}
+section.buyer-personas .text-c6{
+    color: #D3B151;
+}
+section.buyer-personas .text-c7{
+    color: #D35E51;
+}
+section.buyer-personas .text-c8{
+    color: #F05C2F;
+}
+.product-market-details-nesting {
+    background: url(../img/product-market-details-bg.webp) no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+section.product-market ul{
+    padding: 20px 0 3px;
+}
+section.product-market ul li {
+    text-align: center;
+    list-style: none;
+}
+section.product-market ul li span{
+    background: var(--orange);
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 35px;
+    padding: 1.5rem 4.5rem;
+    border-radius: 28px;
+    font-weight: 500;
+}
+section.product-market ul li:nth-child(1) span{
+    width: 175px;
+ }
+section.product-market ul li:nth-child(2) span{
+    width: 230px;
+}
+section.product-market ul li:nth-child(3) span{
+    width: 295px;
+}
+section.product-market ul li:nth-child(4) span{
+
+    width: 330px;
+}
+section.product-market ul li:nth-child(5) span{
+    width: 360px;
+}
+section.product-market ul li:nth-child(6) span{
+    width: 400px;
+}
+ .accordion  .clp-open-heading {
+    display: block;
+}
+
+.accordion .collapsed .clp-open-heading {
+    display: none;
+}
+ .accordion .collapsed .clp-close-heading {
+    display: block;
+}
+ .accordion  .clp-close-heading {
+    display: none;
+}
+
+
+
+section.digital-startup .pl-bl-icon img {
+    width: 85px;
+    margin-top: 15px;
+}
+section.digital-startup .pl-bl-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2.4rem;
+    margin: 15px 0;
+    text-transform: capitalize;
+    word-break: break-word;
+}
+section.digital-startup .pl-block {
+    height: 220px;
+}
+section.digital-startup .pl-bl-icon {
+    height: 99px;
+}
+section.smart-objectives p {
+    font-size: 1.8rem;
+}
+section.pirate-funnel p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+section.affiliation-partners ul{
+    padding: 0;
+    align-items: center;
+    align-content: center;
+}
+section.affiliation-partners ul li{
+    margin-right: 50px !important;
+}
+
+section.affiliation-partners  h2{
+    font-size: 4rem;
+
+}
+
+/*=============================================
+            Responsiveness
+===============================================*/
+@media screen and (max-width: 1199px) {
+    section.Ps-marketing .Ps-marketing-details .card-inner {
+        min-height: 429px;
+    }
+}
+@media screen and (max-width: 991px) {
+    section.crash-course img {
+        margin-bottom: 15px;
+        position: unset;
+    }
+    section.startup-banner .content .startup-flex:last-child .text a {
+        font-size: 1.6rem;
+    }
+    section.startup-courses .course-wrap .text h5 span {
+        font-size: 1.4rem;
+
+    }
+
+    section.startup-courses .course-wrap {
+        margin-bottom: 20px;
+    }
+    section.crash-course .order-one{
+        order: 1;
+    }
+    section.crash-course .order-two{
+        order: 2;
+    }
+    section.crash-course img {
+        top: 0;
+        margin-bottom: 15px;
+    }
+    section.own-Startup h2 {
+        font-size: 3.2rem;
+    }
+    section.know-your-value .card-wrap.card-t {
+        margin-top: 0;
+    }
+    section.know-your-value .card-wrap {
+        margin-bottom: 14px;
+    }
+    section.business-plan .business-plan-head {
+        width: 100%;
+
+    }
+    section.business-plan .cards-wrap .card-item {
+        width: 33.33%;
+    }
+    section.pirate-funnel img {
+        height: auto;
+        margin: 20px auto;
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        display: block;
+
+    }
+    section.pirate-funnel .col-right p {
+        font-size: 1.8rem;
+        line-height: 2.9rem;
+    }
+    .product-market-head p {
+        width: 100%;
+    }
+    section.product-market .product-market-details img {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    section.State-Company .State-Company-card{
+        min-height: 190px;
+    }
+    section.marketing-funnel img {
+        padding: 0;
+        display: block;
+        margin: 20px auto;
+        height: 300px;
+    }
+    section.marketing-funnel .fu-cards {
+        height: auto;
+        min-height: 276px;
+    }
+    section.swot-analysis .swot-analysis-card .card-inner {
+        min-height: 252px;
+    }
+    section.business-plan .business-plan-card p {
+
+        font-size: 1.7rem;
+
+    }
+    section.product-market ul li a {
+        margin-bottom: 20px;
+        padding: 1.2rem 4rem;
+        font-size: 1.7rem;
+
+    }
+    section.product-market ul li:nth-child(1) span{
+        width: 145px;
+    }
+    section.product-market ul li:nth-child(2) span{
+        width: 200px;
+    }
+    section.product-market ul li:nth-child(3) span{
+        width: 265px;
+    }
+    section.product-market ul li:nth-child(4) span{
+
+        width: 300px;
+    }
+    section.product-market ul li:nth-child(5) span{
+        width: 330px;
+    }
+    section.product-market ul li:nth-child(6) span{
+        width: 370px;
+    }
+    section.Ps-marketing .Ps-marketing-details .card-inner.c-3 {
+        margin-bottom: 30px;
+    }
+    section.Ps-marketing .Ps-marketing-details .card-inner {
+        min-height: 350px;
+    }
+    section.crash-course img {
+        margin: 10px auto 15px;
+        display: block;
+    }
+    section.crash-course {
+        text-align: center;
+    }
+}
+@media (max-width: 991px) {
+    section.module.breakdown .accordion button {
+
+        display: block !important;
+    }
+    section.module.breakdown .accordion button span {
+        margin-bottom: 10px;
+        display: block;
+        width: fit-content;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    section.module.breakdown .pl-md-title {
+        padding-left: 0;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    section.module.breakdown .accordion > .card .card-body ul li {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+    section.module.breakdown .accordion > .card .card-body h5 {
+
+        margin-bottom: 15px;
+    }
+    section.module.breakdown .accordion .clp-open-heading {
+
+        padding-left: 10px;
+    }
+    section.module.breakdown .accordion .card-body {
+        padding-top: 0;
+    }
+
+}
+@media (max-width: 767px) {
+
+    section.digital-startup .pl-bl-heading {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    section.digital-startup .pl-bl-icon img {
+        width: 50px;
+        margin-top: 0;
+    }
+
+    section.developing-brand ul li {
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-bottom: 6px;
+        font-size: 1.6rem;
+    }
+    section.swot-analysis .swot-analysis-card .card-inner {
+        min-height: 160px;
+    }
+    section.business-plan .business-plan-card {
+
+        min-height: 22rem;
+    }
+    section.buyer-personas .buyer-personas-card img {
+
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+    }
+    section.buyer-personas .buyer-personas-card ul li {
+        padding: 17px 9px;
+        font-size: 1.8rem;
+    }
+    section.marketing-funnel .fu-cards {
+        height: auto;
+        min-height: auto;
+    }
+}
+@media (max-width: 575px) {
+section.startup-banner .content .startup-flex {
+    justify-content: flex-start;
+
+}
+    section.startup-banner .content .startup-flex .text {
+
+        width: calc(80%);
+
+    }
+    section.product-market ul li span {
+        margin-bottom: 15px;
+        padding: 1.2rem 4rem;
+        font-size: 1.6rem;
+    }
+    section.product-market ul li:nth-child(1) span{
+        width: 125px}
+    section.product-market ul li:nth-child(2) span{
+        width: 180px;
+    }
+    section.product-market ul li:nth-child(3) span{
+        width: 245px;
+    }
+    section.product-market ul li:nth-child(4) span{
+
+        width: 280px;
+    }
+    section.product-market ul li:nth-child(5) span{
+        width: 310px;
+    }
+    section.product-market ul li:nth-child(6) span{
+        width: 350px;
+    }
+    section.Ps-marketing .Ps-marketing-details .card-inner {
+        display: block;
+    }
+    section.Ps-marketing .Ps-marketing-details .card-inner .col-left {
+        width: 100%;
+    }
+    section.Ps-marketing .Ps-marketing-details .card-inner .col-right {
+        width: 100%;
+    }
+    section.startup-banner h1{
+        margin-bottom: 15px;
+    }
+    section.affiliation-partners h2{
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    section.affiliation-partners ul {
+        display: block !important;
+    }
+    section.affiliation-partners ul li {
+        margin-right: 0 !important;
+        margin-bottom: 40px;
+    }
+    section.affiliation-partners ul li img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    section.affiliation-partners ul li:first-child img{
+        width: 50%;
+    }
+}
+
+/*new banner*/
+.digital-mastery .content {
+    background: url(../img/digital-mastery-bg.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: 100% !important;
+}
+ul.banner-b-list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px 7px;
+}
+ul.banner-b-list li {
+    margin: 0 6px 10px;
+    list-style: none;
+}
+ul.banner-b-list li a{
+    font-size: 10px;
+    font-weight: 700;
+    padding: 13px 4px;
+    color: white;
+    border-radius: 4px;
+    display: block;
+    min-width: 159px;
+    text-align: center;
+    line-height: 1;
+}
+.bt-1{
+   background-color: #AF3372;
+}
+.bt-2{
+    background-color: #C96F0E;
+}
+.bt-3{
+    background-color:#465E0A;
+}
+.bt-4{
+    background-color:#D29B00 ;
+}
+.bt-5{
+    background-color: #8BC441;
+}
+.bt-6{
+    background-color:#00BFF3;
+}
+.bt-7{
+    background-color: #083459;
+}
+.bt-8{
+    background-color: #F34512;
+}
+@media (max-width: 767px){
+    .h-primary {
+        font-size: 3rem !important;
+    }
+    .affiliation-banner-2{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+@media (max-width: 575px){
+    ul.banner-b-list li a {
+        min-width: auto;
+    }
+    ul.banner-b-list li {
+        width: 46%;
+    }
+}
