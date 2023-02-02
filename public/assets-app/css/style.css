@@ -1,5 +1,7 @@
 /*Enablers Theme*/
-
+/* primary color : #5b4f9b; */
+/* Secomdary color : #73b844; */
+/* Secomdary-2 color : #050505; */
 html {
     -webkit-text-size-adjust: none;
     scroll-behavior: smooth;
@@ -498,16 +500,20 @@ button:focus {
 .text-danger {
     color: var(--red);
 }
+
 .text-black {
     color: var(--text-color) !important;
 }
+
 /*Heights*/
-.max-ht{
+.max-ht {
     max-height: 100%;
 }
-.min-ht{
+
+.min-ht {
     min-height: 100vh;
 }
+
 /*background color*/
 
 .trans-bg {
@@ -658,7 +664,7 @@ select.form-control {
     -moz-appearance: none;
     appearance: none;
     background-size: contain;
-  }
+}
 
 label,
 .label {
@@ -1319,7 +1325,7 @@ body.dark .logo img {
     position: relative;
 }
 
-.home-slides .owl-dots .owl-dot{
+.home-slides .owl-dots .owl-dot {
     background: none repeat scroll 0 0 var(--text-color);
     border-radius: 20px;
     display: block;
@@ -1328,7 +1334,7 @@ body.dark .logo img {
     width: 12px;
 }
 
-.home-slides .owl-dots .owl-dot.active{
+.home-slides .owl-dots .owl-dot.active {
     background: #fff;
 }
 
@@ -2173,6 +2179,7 @@ body.dark .logo img {
     padding-left: 0.2rem;
     line-height: 3.8rem;
 }
+
 .tr-title-wrap {
     height: 23rem;
     padding: 1.2rem 2rem;
@@ -2385,11 +2392,13 @@ body.dark .logo img {
     background-size: cover;
     background-position: center;
 }
-.ilford-banner-wrapper .content{
+
+.ilford-banner-wrapper .content {
     background: url('../img/enablers-london-seminers-bg.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .en-ilord-right-content .form-control,
 .en-ilord-right-content .custom-select {
     display: block;
@@ -2429,6 +2438,7 @@ body.dark .logo img {
     padding-left: 2.3rem;
     margin-bottom: 2rem;
 }
+
 .en-benefit-wrap ul li {
     font-size: 2rem;
     line-height: 3rem;
@@ -3943,15 +3953,19 @@ display: none;
     border-top: 0.6rem solid var(--orange);
     margin: 3rem 0;
 }
+
 .mission-vision-wrapper .md-heading span {
     font-size: 5rem;
     font-weight: 700;
     color: #9e9e9e;
 }
-.mission-vision-wrapper .md-heading sup, .mission-vision-wrapper .md-heading sub {
+
+.mission-vision-wrapper .md-heading sup,
+.mission-vision-wrapper .md-heading sub {
     font-size: 3rem;
     font-weight: 700;
 }
+
 .co-inner .bg-bar {
     position: absolute;
     background: var(--orange);
@@ -4051,7 +4065,8 @@ display: none;
     background: var(--orange);
     padding: 0.8rem 1.5rem;
 }
-.info-rap-2{
+
+.info-rap-2 {
     font-size: 1.8rem;
     line-height: 3rem;
 }
@@ -4257,6 +4272,7 @@ display: none;
     background-size: cover;
     background-position: center;
 }
+
 /* End Premium Series Banner */
 .evs-banner-wrapper .content {
     background: url(../img/Enablers-EVS-banner.png) no-repeat;
@@ -4712,35 +4728,43 @@ display: none;
 
 /* Start Student Profile
 ================================================== */
-.st-login-bl:hover h4, .st-login-bl:hover p {
+.st-login-bl:hover h4,
+.st-login-bl:hover p {
     color: #fff;
 }
+
 .st-login-bl p {
     font-size: 1.8rem;
     line-height: 2.7rem;
     margin: 0;
     padding-bottom: 3rem;
 }
+
 .st-login-bl {
     padding: 2rem;
     background-color: transparent;
 }
+
 .st-login-bl:hover .none-hover {
     opacity: 0;
     display: none;
 }
+
 .st-login-bl:hover .on-hover {
     opacity: 1;
     display: block;
     margin: 0 auto;
 }
+
 .on-hover {
     opacity: 0;
     display: none;
 }
+
 .st-login-bl:hover {
     background: var(--blue);
 }
+
 .st-login-bl:hover {
     -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
@@ -4750,6 +4774,7 @@ display: none;
     box-shadow: 0 0 6px 0px rgb(103 103 103 / 59%);
     z-index: 9999;
 }
+
 .st-login-bl {
     padding: 2rem;
     background-color: transparent;
@@ -4760,6 +4785,7 @@ display: none;
     justify-content: center;
     border-radius: 0;
 }
+
 .st-login-block-wrapper .card {
     background-color: transparent;
     border-radius: 0;
@@ -4769,6 +4795,7 @@ display: none;
 .st-login-block-wrapper .card a {
     color: var(--black);
 }
+
 .e-st-details-listed ul li {
     width: 33%;
     flex-basis: 33%;
@@ -4776,13 +4803,16 @@ display: none;
     text-transform: capitalize;
     margin-top: 1.5rem;
 }
+
 .e-st-details-listed ul li span {
     font-size: 1.6rem;
     line-height: 2rem;
 }
+
 .e-st-details-listed ul li strong {
     font-size: 1.8rem;
 }
+
 .e-st-details-listed ul {
     flex-wrap: wrap;
     display: flex;
@@ -4790,6 +4820,7 @@ display: none;
     padding: 0;
     list-style: none;
 }
+
 .en-st-center-con,
 .en-st-bottom-con {
     display: flex;
@@ -4842,6 +4873,7 @@ display: none;
     width: 100px;
     margin: 0 auto;
 }
+
 .st-more-block {
     padding: 5rem 1rem;
     border: 2px solid #E4E4E4;
@@ -4852,17 +4884,20 @@ display: none;
     -ms-transition: border-color 1s ease;
     transition: border-color 1s ease;
 }
-.fd-more-content ol{
+
+.fd-more-content ol {
     counter-reset: my-awesome-counter;
     list-style: none;
 }
-.fd-more-content ol li{
+
+.fd-more-content ol li {
     counter-increment: my-awesome-counter;
     position: relative;
     margin-left: 4.4rem;
     line-height: 4.5rem;
     margin-bottom: 2rem;
 }
+
 .fd-more-content ol li:before {
     content: counter(my-awesome-counter);
     color: #fff;
@@ -4878,13 +4913,16 @@ display: none;
     align-items: center;
     justify-content: center;
 }
+
 .st-res-icon-title img {
     max-width: 150px;
     margin: 0 auto;
 }
+
 .st-more-content h5 {
     padding-bottom: 1.3rem;
 }
+
 .st-more-block:hover {
     border-color: var(--orange);
     -webkit-box-shadow: 0 0 6px 0px rgb(103 103 103 / 59%);
@@ -4893,6 +4931,7 @@ display: none;
     z-index: 9999;
     background-color: #fff;
 }
+
 .so-icon i {
     height: 35px;
     width: 35px;
@@ -5357,32 +5396,39 @@ display: none;
 .u-date {
     font-size: 18px;
 }
+
 .u-date sup {
     font-size: 14px;
     font-weight: 700;
 }
+
 .u-designation {
     font-size: 18px;
     color: #5E5E5E;
 }
+
 .u-title {
     font-size: 20px;
     margin: 0;
 }
+
 .u-desc {
     font-size: 14px;
     line-height: 22px;
 }
+
 .u-link {
     font-size: 14px;
     color: #000;
     text-decoration: none;
 }
+
 .upcoming-dates {
     font-size: 70px;
     display: block;
     color: #CBCBCB;
 }
+
 .upcoming-dates small {
     font-size: 22px;
     padding-top: 15px;
@@ -5390,18 +5436,21 @@ display: none;
     margin: 0;
     display: block;
 }
+
 .form-title {
     margin-bottom: 14px;
     font-size: 20px;
     color: #878787;
     display: block;
 }
+
 .upcoming-wrapper .form-check-label {
     margin-bottom: 0;
     margin-left: 35px;
     font-weight: 700;
     color: #000;
 }
+
 .upcoming-wrapper input[type="checkbox"] {
     box-sizing: border-box;
     padding: 0;
@@ -5410,41 +5459,53 @@ display: none;
     margin: 0;
     margin-top: 4px;
 }
+
 .divider {
     height: 5px;
     width: 65px;
     background: var(--orange);
 }
+
 .upcoming-wrapper .checkbox {
     margin-bottom: 16px;
 }
+
 .u-link i {
     font-size: 14px;
     padding-right: 5px;
 }
-.up-about-wrap strong, .up-about-wrap p {
+
+.up-about-wrap strong,
+.up-about-wrap p {
     font-size: 20px;
     line-height: 25px;
     padding-bottom: 3rem;
 }
+
 .up-ab-icon {
     font-size: 6rem;
     color: var(--white);
 }
+
 .up-ab-content h3 {
     margin: 0;
     padding: 2rem 0;
 }
+
 .up-ab-content {
     padding: 4rem;
 }
-.counter-box .counter, .counter-box span {
+
+.counter-box .counter,
+.counter-box span {
     font-size: 5rem;
 }
+
 .counter-title {
     font-size: 2.3rem;
     font-weight: 700;
 }
+
 /* End Events page
 ================================================== */
 
@@ -5490,10 +5551,12 @@ display: none;
     vertical-align: middle;
     padding: 5rem;
 }
+
 .st-login-wrapper .form-group.material-style {
     position: relative;
     margin-top: 1rem;
 }
+
 .st-login-wrapper .form-group.material-style .form-control {
     border-radius: 0px;
     border-top: none;
@@ -5505,32 +5568,39 @@ display: none;
     height: 7rem;
     font-size: 2rem;
 }
+
 .st-login-wrapper form .orange-btn {
     padding: 2rem 4.5rem;
 }
+
 .st-login-wrapper .form-group.material-style .form-control:focus {
     box-shadow: inset 0px -1px 0px #f05c2f;
     border-color: #f05c2f;
 }
-.st-login-wrapper .form-group.material-style:focus span{
+
+.st-login-wrapper .form-group.material-style:focus span {
     box-shadow: inset 0px -1px 0px #f05c2f;
     color: #f05c2f;
 }
+
 .st-login-wrapper .form-check-input {
     height: 30px;
     width: 20px;
     margin-left: -2px;
 }
+
 .st-login-wrapper label.form-check-label {
     margin-left: 24px;
     margin-top: 6px;
     font-size: 16px;
     color: var(--blue);
 }
+
 .st-login-wrapper .forget-link {
     font-size: 18px;
     color: var(--blue);
 }
+
 .e-st-banner-wrapper .content {
     background-image:
         linear-gradient(to left, rgb(245 246 252 / 0%), rgb(6 126 245)),
@@ -5538,13 +5608,17 @@ display: none;
     background-size: cover;
     background-position: top;
 }
-.student-login-block:hover h4, .student-login-block:hover p {
+
+.student-login-block:hover h4,
+.student-login-block:hover p {
     color: var(--orange) !important;
 }
+
 .student-login-block:hover .on-hover {
     display: block;
     opacity: 1;
 }
+
 .student-login-block:hover .none-hover {
     display: none;
 }
@@ -5554,17 +5628,21 @@ display: none;
     transition: 1s;
     height: 25rem;
 }
-.show-login-slides{
-    display:none !important;
+
+.show-login-slides {
+    display: none !important;
 }
+
 .st-icons-con img {
     margin: 0 auto;
-    width:90px;
+    width: 90px;
 }
+
 .st-block-wrap p {
     font-size: 1.8rem;
     line-height: 2.4rem;
 }
+
 /* End Student Dashborad Login page
 ================================================== */
 
@@ -5574,14 +5652,17 @@ display: none;
 .black-list {
     list-style: none;
 }
+
 .black-list li {
     padding: 2rem;
     background: #fff;
     margin-bottom: 2rem;
 }
+
 .black-list .a-head {
     background: transparent;
 }
+
 /* End Blacklist page
 ================================================== */
 
@@ -5592,6 +5673,7 @@ display: none;
     background-size: cover;
     background-position: top center;
 }
+
 .st-slider .owl-dots .owl-dot {
     background: none repeat scroll 0 0 var(--text-color);
     border-radius: 20px;
@@ -5600,14 +5682,17 @@ display: none;
     margin: 5px 7px;
     width: 12px;
 }
-.st-slider .owl-dots{
+
+.st-slider .owl-dots {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .st-slider .owl-dots .owl-dot.active {
     background: var(--orange);
 }
+
 .sp-education-wrapper .card {
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -5615,6 +5700,7 @@ display: none;
     cursor: pointer;
     margin: 0 1rem;
 }
+
 .sp-education-wrapper .card:hover {
     background: #fff;
     border-radius: 15px;
@@ -5626,6 +5712,7 @@ display: none;
     box-shadow: 0 0 6px 0px rgb(103 103 103 / 59%);
     z-index: 9999;
 }
+
 .custom-check .form-check-input {
     margin-top: 0;
     top: 50%;
@@ -5633,9 +5720,11 @@ display: none;
     width: 2rem;
     height: 2rem;
 }
+
 .custom-check .form-check-label {
     margin-left: 1.5rem;
 }
+
 /* End Sponsor page
 /* Start New Seminars page
 ================================================== */
@@ -5645,17 +5734,20 @@ display: none;
     background-position: top center;
     background-size: cover;
 }
+
 .b-icon img {
     width: 100px;
     margin: 0 auto;
     height: 100px;
     margin-bottom: 2rem;
 }
+
 .benigit-block {
     border: 0;
     padding: 0;
     border-radius: 0;
 }
+
 .benigit-block .card-body {
     padding: 3rem 2rem;
     height: 35rem;
@@ -5665,11 +5757,13 @@ display: none;
     justify-content: center;
     background: var(--white);
 }
-.e-business-wrapper{
+
+.e-business-wrapper {
     background: url('../img/business-bg.webp') no-repeat;
     background-position: top center;
     background-size: cover;
 }
+
 .e-seats-wrapper {
     background: url(../img/seats-bg.webp) no-repeat;
     background-position: bottom;
@@ -5745,52 +5839,63 @@ display: none;
         font-size: 2.2rem;
     }
 }
+
 @media (min-width: 1450px) {
     .main-ldn-banner-wrapper .content {
         min-height: 40rem !important;
     }
-    .main-ldn-banner-wrapper .bg-bar{
+
+    .main-ldn-banner-wrapper .bg-bar {
         height: 43rem !important;
     }
 }
+
 @media (max-width: 1430px) {
     .navigation-wrap .navbar-light .nav-link {
         font-size: 1.3rem;
     }
 }
+
 @media (max-width: 1312px) {
     .navigation-wrap .navbar-light .nav-link {
         font-size: 1.1rem;
     }
 }
+
 @media (max-width: 1200px) {
     .navigation-wrap .navbar-light .nav-link {
         font-size: 1rem;
     }
 }
+
 @media (max-width: 1150px) {
     .navigation-wrap .navbar-light .nav-link {
         font-size: 0.9rem;
     }
 }
+
 @media (max-width: 1080px) {
     .navigation-wrap .navbar-light .nav-link {
         font-size: 0.7rem;
     }
 }
+
 @media (max-width: 991.20px) {
     .navigation-wrap .navbar-light .nav-link {
         font-size: 1.5rem;
     }
 }
+
 @media (max-width: 1199px) {
     .st-login-wrapper .card-2 .card-heading .md-heading {
         font-size: 2rem;
     }
+
     .st-login-wrapper .card-2 .card-heading p {
         font-size: 1.5rem;
         line-height: 2.4rem;
     }
+
     .student-login-block {
         padding: 1rem 1rem;
         height: 20rem;
@@ -5799,17 +5904,21 @@ display: none;
         justify-content: center;
         align-items: center;
     }
+
     .student-login-block h4 {
         font-size: 1.4rem;
         line-height: 2.3rem;
     }
+
     .st-icons-con {
         height: 9rem;
     }
+
     .st-block-wrap {
         border: 1px solid #fff !important;
         margin: 0.5rem 0.5rem;
     }
+
     .student-login-block p {
         font-size: 1.2rem;
         line-height: 1.6rem;
@@ -5820,11 +5929,13 @@ display: none;
     .student-login-block:hover {
         background: #fff;
     }
+
     .card-wrapper .card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1.5rem;
     }
+
     .card-wrapper {
         display: flex;
         justify-content: center;
@@ -5847,28 +5958,36 @@ display: none;
         justify-content: center;
         align-items: center;
     }
+
     .student-login-block h4 {
         font-size: 1.4rem;
         line-height: 2.3rem;
     }
+
     .st-icons-con {
         height: 9rem;
     }
+
     .student-login-block p {
         font-size: 1.2rem;
         line-height: 1.6rem;
     }
+
     .st-login-wrapper .card-2 .card-heading {
 
         width: 50.1%;
     }
-    .main-ldn-banner-wrapper .content, .main-ldn-banner-wrapper{
+
+    .main-ldn-banner-wrapper .content,
+    .main-ldn-banner-wrapper {
         min-height: 23rem !important;
         justify-content: flex-start !important;
     }
+
     .main-ldn-banner-wrapper .bg-bar {
         height: 26rem !important;
     }
+
     .bk-banner-wrapper .bg-bar {
         height: calc(24% - -24%);
     }
@@ -5880,6 +5999,7 @@ display: none;
     .job-content-wrap .blue-btn {
         padding: 1.5rem 3.5rem;
     }
+
     .st-login-wrapper .card-2 .card-body {
         padding: 2rem;
     }
@@ -5889,38 +6009,50 @@ display: none;
     .student-login-block .on-hover {
         display: none !important;
     }
-    .student-login-block:hover h4, .student-login-block:hover p {
+
+    .student-login-block:hover h4,
+    .student-login-block:hover p {
         color: var(--white) !important;
     }
+
     .student-login-block:hover .none-hover {
         display: block;
     }
+
     .student-login-block:hover {
         background: transparent;
     }
-    .no-login-slides{
-        display:none !important;
+
+    .no-login-slides {
+        display: none !important;
     }
-    .show-login-slides{
-        display:block !important;
-        width:300px;
+
+    .show-login-slides {
+        display: block !important;
+        width: 300px;
         margin: 0 auto;
     }
+
     .st-login-wrapper .card-2 .card-heading {
         background: url(../img/student-dashboard-login.webp) center/cover no-repeat;
         width: 46.1%;
         display: table-cell;
     }
+
     .st-login-wrapper .card-2 .card-body {
         padding: 2rem;
     }
-    .main-ldn-banner-wrapper .content, .main-ldn-banner-wrapper{
+
+    .main-ldn-banner-wrapper .content,
+    .main-ldn-banner-wrapper {
         min-height: 20rem !important;
         justify-content: flex-start !important;
     }
+
     .main-ldn-banner-wrapper .bg-bar {
         height: 23rem !important;
     }
+
     .bred-banner-wrapper .content {
         background: url(../img/new-bradley-page-mobile.jpg) no-repeat;
         background-size: cover;
@@ -6182,60 +6314,71 @@ display: none;
 }
 
 @media (max-width: 767px) {
-    .projects-card .projects-icon{
-position: absolute;
-    top: -130px;
-    border-radius: 50%;
-    overflow: hidden;
-    height: 140px;
-    width: 140px;
-    box-shadow: 0 0 4px #f8f8f8;
-    background: #f8f8f8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+    .projects-card .projects-icon {
+        position: absolute;
+        top: -130px;
+        border-radius: 50%;
+        overflow: hidden;
+        height: 140px;
+        width: 140px;
+        box-shadow: 0 0 4px #f8f8f8;
+        background: #f8f8f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
     }
+
     .projects-card {
-   box-shadow: 0 0 5px #00000094;
-    background: #fff;
-    position: relative;
-    margin-top: 112px;
-    padding: 55px 20px 20px !important;
-}
+        box-shadow: 0 0 5px #00000094;
+        background: #fff;
+        position: relative;
+        margin-top: 112px;
+        padding: 55px 20px 20px !important;
+    }
+
     .st-block-wrap {
         border: 1px solid #fff !important;
         margin: 0.5rem 0.5rem;
     }
+
     .student-login-block .none-hover {
         display: block;
     }
+
     .fd-more-content ol li {
         font-size: 1.4rem;
         line-height: 2rem;
         margin-left: 2.4rem;
     }
+
     .fd-more-content ol li:before {
         font-size: 2rem;
         width: 3rem;
         left: -4rem;
         height: 3rem;
     }
+
     .sec-counter {
         width: 30px;
         height: 30px;
         font-size: 1.6rem;
     }
+
     .so-icon i {
         height: 25px;
         width: 25px;
         font-size: 1.3rem;
     }
-    .cl-session .table-bordered thead th, .cl-session .table td h6, .cl-session .table td h5{
+
+    .cl-session .table-bordered thead th,
+    .cl-session .table td h6,
+    .cl-session .table td h5 {
         font-size: 1.4rem !important;
         vertical-align: middle;
         line-height: 2rem;
     }
+
     .e-st-details-listed ul li {
         width: 100%;
         flex-basis: 100%;
@@ -6243,24 +6386,30 @@ position: absolute;
         text-transform: capitalize;
         margin-top: 1.5rem;
     }
+
     .st-login-block-wrapper .card {
         border-left: 0 !important;
         border-right: 0 !important;
         border-bottom: 1px solid #0000001f !important;
     }
+
     .st-login-wrapper .card-2 {
         display: block;
     }
+
     .st-login-wrapper .card-2 .card-heading {
         width: 100%;
         display: block;
     }
+
     .st-login-wrapper .card-2 .card-body {
         display: block;
     }
-    .min-ht{
+
+    .min-ht {
         min-height: auto;
     }
+
     .sp-education-wrapper .card {
         background: #fff;
         border-radius: 15px;
@@ -6278,17 +6427,20 @@ position: absolute;
         font-size: 1.6rem;
         line-height: 2.3rem;
     }
+
     .e-business-wrapper {
         background: url(../img/business-mobile-bg.webp) no-repeat;
         background-position: top center;
         background-size: cover;
         padding-bottom: 28rem !important;
     }
+
     .black-list li h4 {
         font-size: 1.5rem;
         line-height: 2rem;
     }
-   /* .ceo-banner-wrapper .content {
+
+    /* .ceo-banner-wrapper .content {
         background: url(../img/Enablers-ceo-banner-new-mobile-bg.jpg) no-repeat;
         background-position: center;
         background-size: cover;
@@ -6297,51 +6449,65 @@ position: absolute;
         margin-left: 0;
         padding: 0;
     }
-    .info-rap-2{
+
+    .info-rap-2 {
         margin-bottom: 0;
     }
+
     .bo-achivement-wrapper h5 {
         font-size: 2rem;
     }
+
     .divider-content {
         margin: 1rem 0;
     }
+
     .up-about-wrapper .up-ab-content {
         padding: 2rem;
         text-align: center;
         background: var(--orange);
         margin-bottom: 1.5rem;
     }
+
     .counter-title {
         margin: 0;
     }
+
     .counter-box {
         background: var(--white);
         padding: 4rem;
         margin-bottom: 1.5rem;
     }
+
     .up-about-wrapper .orange-bg {
         background: transparent;
     }
+
     .up-about-wrap p {
         padding-bottom: 0;
     }
+
     .main-ldn-banner-wrapper .bg-bar {
         height: 43rem !important;
     }
+
     .up-ab-content h3 {
         padding: 1rem 0;
     }
+
     .up-ab-block .card p {
         font-size: 1.5rem;
         line-height: 2.4rem;
     }
-    .main-ldn-banner-wrapper .content{
+
+    .main-ldn-banner-wrapper .content {
         background: url(../img/enablers-main-mobile-banner-2.png) no-repeat;
         min-height: 40rem !important;
         background-size: cover;
     }
-    .ldn-banner-wrapper .bg-bar, .ilford-banner-wrapper .bg-bar {
+
+    .ldn-banner-wrapper .bg-bar,
+    .ilford-banner-wrapper .bg-bar {
         height: 37rem !important;
     }
 
@@ -6351,6 +6517,7 @@ position: absolute;
         background-position: center;
         min-height: 35rem !important;
     }
+
     .ilford-banner-wrapper .content {
         background: url(../img/london-page-mobile.png) no-repeat;
         background-size: cover;
@@ -7042,29 +7209,37 @@ position: absolute;
         bottom: -20px;
     }
 }
+
 @media (max-width: 650px) {
     .main-ldn-banner-wrapper .content {
         min-height: 34rem !important;
     }
+
     .main-ldn-banner-wrapper .bg-bar {
         height: 37rem !important;
     }
 }
+
 @media (max-width: 550px) {
     .st-login-wrapper header {
         padding-bottom: 1rem;
     }
+
     .main-ldn-banner-wrapper .bg-bar {
         height: 32rem !important;
     }
+
     .main-ldn-banner-wrapper .content {
         min-height: 29rem !important;
     }
-    .ldn-banner-wrapper .bg-bar,  .ilford-banner-wrapper .bg-bar {
+
+    .ldn-banner-wrapper .bg-bar,
+    .ilford-banner-wrapper .bg-bar {
         height: 31rem !important;
     }
 
-    .ldn-banner-wrapper .content, .ilford-banner-wrapper .content {
+    .ldn-banner-wrapper .content,
+    .ilford-banner-wrapper .content {
         min-height: 28rem !important;
     }
 
@@ -7086,26 +7261,31 @@ position: absolute;
     .main-ldn-banner-wrapper .bg-bar {
         height: 26rem !important;
     }
+
     .main-ldn-banner-wrapper .content {
         min-height: 24rem !important;
     }
+
     .en-ilord-head-wrapper {
         margin: 0 !important;
         padding: 0 !important;
     }
 
-    .ldn-banner-wrapper .content,  .ilford-banner-wrapper .content {
+    .ldn-banner-wrapper .content,
+    .ilford-banner-wrapper .content {
         min-height: 24rem !important;
     }
 
     .ldn-banner-wrapper .content,
-    .ldn-banner-wrapper,  .ilford-banner-wrapper .content,
+    .ldn-banner-wrapper,
+    .ilford-banner-wrapper .content,
     .ilford-banner-wrapper {
         flex-direction: column;
         justify-content: flex-start !important;
     }
 
-    .ldn-banner-wrapper .bg-bar, .ilford-banner-wrapper .bg-bar {
+    .ldn-banner-wrapper .bg-bar,
+    .ilford-banner-wrapper .bg-bar {
         height: 27rem !important;
     }
 
