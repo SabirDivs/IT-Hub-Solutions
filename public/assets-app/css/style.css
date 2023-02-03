@@ -310,7 +310,7 @@ a:hover {
 }
 
 .trans-btn {
-    background: transparent;
+    background: var(--cardBackgroundSecondary);
     text-transform: uppercase;
     color: var(--white);
     padding: 1.5rem 4.5rem;
@@ -653,9 +653,9 @@ button:focus {
 .custom-select:focus {
     color: #6e707e;
     background-color: #fff;
-    border-color: #f05c2f;
+    border-color: var(--purple);
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(240 92 47 / 40%);
+    box-shadow: 0 0 0 0.2rem rgb(91, 79, 155/ 40%);
 }
 
 select.form-control {
@@ -937,11 +937,11 @@ body.dark .logo img {
 }
 
 .navigation-wrap .navbar-light .nav-item:hover .nav-link {
-    color: var(--orange);
+    color: var(--purple);
 }
 
 .navigation-wrap .navbar-light .nav-item.active .nav-link {
-    color: var(--orange);
+    color: var(--purple);
 }
 
 .navigation-wrap .navbar-light .nav-item:after {
@@ -951,7 +951,7 @@ body.dark .logo img {
     width: 100%;
     height: 2px;
     content: '';
-    background-color: var(--orange);
+    background-color: var(--purple);
     opacity: 0;
     transition: all 200ms linear;
 }
@@ -1127,7 +1127,7 @@ body.dark .logo img {
 }
 
 .menu-item:hover a {
-    color: var(--orange);
+    color: var(--purple);
     text-decoration: none;
 }
 
@@ -2734,7 +2734,7 @@ Contact Us
     font-weight: 400;
     margin: 0;
     padding-bottom: 1rem;
-    color: var(--orange);
+    color: var(--purple);
 }
 
 .ph-conact {
@@ -2774,8 +2774,8 @@ Contact Us
 }
 
 .o-socail-list li a:hover {
-    background: rgb(244, 105, 48);
-    background: linear-gradient(90deg, rgba(244, 105, 48, 1) 4%, rgba(249, 148, 54, 1) 100%);
+    background: var(--purple);
+    background: linear-gradient(90deg, #5b4f9b 4%, #5b4f9b 100%);
 }
 
 .o-socail-list li:last-child a {
@@ -2785,7 +2785,7 @@ Contact Us
 .o-socail-list li a {
     font-size: 3rem;
     color: #fff;
-    background: #464646;
+    background: var(--cardBackgroundSecondary);
     height: 5rem;
     width: 5rem;
     display: flex;
@@ -2802,7 +2802,7 @@ Contact Us
 .o-socail-wrap h5 {
     font-size: 2.5rem;
     clear: both;
-    color: var(--orange);
+    color: var(--purple);
     font-weight: 400;
 }
 
@@ -5823,7 +5823,7 @@ display: none;
 }
 
 .sticky-icon a i {
-    background-color: #36bd4a;
+    background-color: var(--paretGreen);
     height: 60px;
     width: 60px;
     color: #FFF;
