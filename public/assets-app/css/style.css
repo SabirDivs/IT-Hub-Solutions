@@ -94,11 +94,11 @@ video {
 }
 
 :root {
-    --blue: #067EF5;
-    --orange: #F05C2F;
+    --paretGreen: #73b844;
+    --purple:#5b4f9b;
     --white: #fff;
-    --green: #24b502;
-    --red: #eb1d1d;
+    --cardBackgroundSecondary: #242424;
+    /* --red: #eb1d1d; */
     --grey: #f2f2f2;
     font-size: 10px;
     --text-color: #000;
@@ -362,12 +362,12 @@ a:hover {
 }
 
 .blue-btn {
-    background: var(--blue);
+    background: var(--cardBackgroundSecondary);
     text-transform: uppercase;
     color: var(--white);
     padding: 1.5rem 4.5rem;
     font-size: 1.4rem;
-    border: 0.2rem solid var(--blue);
+    border: 0.2rem solid var(--paretGreen);
     text-align: center;
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -399,8 +399,8 @@ a:hover {
 
 .blue-btn:hover {
     color: #fff;
-    background: var(--text-color);
-    border-color: var(--text-color);
+    background: var(--paretGreen);
+    border-color: var(--purple);
 }
 
 .blue-btn:active:before,
@@ -414,8 +414,8 @@ a:hover {
 }
 
 .black-btn {
-    background: var(--text-color);
-    border: 0.2rem solid var(--text-color);
+    background: var(--cardBackgroundSecondary);
+    border: 0.2rem solid var(--paretGreen);
     text-transform: uppercase;
     color: var(--white);
     padding: 1.5rem 4.5rem;
@@ -435,9 +435,9 @@ a:hover {
 }
 
 .black-btn:hover {
-    color: var(--orange);
-    background: var(--white);
-    border-color: var(--white);
+    color: #fff;
+    background: var(--paretGreen);
+    border-color: var(--purple);
 }
 
 .black-btn:active:before,
@@ -446,7 +446,7 @@ a:hover {
     padding: 0 0.1rem;
     -webkit-transform: translate(-1.655rem, -50%);
     transform: translate(-1.655rem, -50%);
-    background: #f05c2f;
+    background: #fff;
     outline: none;
 }
 
@@ -521,11 +521,11 @@ button:focus {
 }
 
 .blue-bg {
-    background: var(--blue);
+    background: var(--purple);
 }
 
 .orange-bg {
-    background: var(--orange);
+    background: var(--cardBackgroundSecondary);
 }
 
 .grey-bg {
@@ -971,7 +971,14 @@ body.dark .logo img {
 }
 
 .head-support-btn {
-    background: var(--blue);
+    background: var(--purple);
+    position: absolute;
+    right: 0;
+    height: 8rem;
+    width: 8rem;
+}
+.head-support-btn:hover {
+    background: var(--paretGreen);
     position: absolute;
     right: 0;
     height: 8rem;
@@ -1060,7 +1067,7 @@ body.dark .logo img {
 
 .footer-social .card,
 .footer-bottom-01 {
-    background: var(--orange);
+    background: var(--purple);
 }
 
 .footer {
@@ -1068,10 +1075,14 @@ body.dark .logo img {
 }
 
 .footer-logo-content .card {
-    background: var(--text-color);
+    background: #fff;
     border: 0;
     border-radius: 0;
 }
+.footer-logo-content .card span{
+    color: var(--text-color);
+}
+
 
 .footer-social .card {
     border: 0;
@@ -1128,7 +1139,7 @@ body.dark .logo img {
 
 .bg-br {
     color: #fff;
-    background: var(--orange);
+    background: var(--purple);
     width: 16rem;
     margin: 1rem auto;
     padding: .4rem;
@@ -1139,6 +1150,8 @@ body.dark .logo img {
 .footer-logo-content img {
     margin: 0 auto;
     margin-bottom: 3rem;
+    height: 150px;
+    width: 200px;
 }
 
 .footer-logo-content span {
@@ -1272,7 +1285,7 @@ body.dark .logo img {
 .footer-address-content strong a {
     font-size: 2.5rem;
     display: block;
-    color: var(--orange);
+    color: var(--purple);
     line-height: 3rem;
 }
 
@@ -1281,7 +1294,6 @@ body.dark .logo img {
     padding: 7.5rem 0;
     height: 37.5rem;
 }
-
 
 /* End Footer
 ================================================== */
@@ -1366,7 +1378,7 @@ body.dark .logo img {
 
 .bg-bar {
     position: absolute;
-    background: var(--orange);
+    background: var(--purple);
     right: 0;
     bottom: -50px;
     z-index: 0;
@@ -1668,7 +1680,7 @@ body.dark .logo img {
 .career-content {
     position: absolute;
     bottom: 3rem;
-    background: #f05c2f8c;
+    background: var(--purple);
     padding: 3rem 5rem;
 }
 
@@ -1857,7 +1869,7 @@ body.dark .logo img {
 
 .mission-block {
     padding: 8rem 4rem;
-    background: #3A3A3A;
+    background: var(--purple);
 }
 
 .mission-icon-contents {
@@ -1969,7 +1981,7 @@ body.dark .logo img {
 }
 
 .a-vision-left-content {
-    background: var(--blue);
+    background: var(--purple);
     padding: 3rem;
 }
 
@@ -2027,7 +2039,7 @@ body.dark .logo img {
     position: absolute;
     bottom: 2rem;
     right: 0;
-    background: var(--orange);
+    background: var(--purple);
     padding: 3rem;
 }
 
@@ -2038,7 +2050,7 @@ body.dark .logo img {
 }
 
 .a-every-right-content {
-    background: var(--blue);
+    background: var(--cardBackgroundSecondary);
     padding: 5rem 4rem;
 }
 
@@ -2111,7 +2123,7 @@ body.dark .logo img {
 }
 
 .a-values-left-content {
-    background: var(--orange);
+    background: var(--purple);
     padding: 5rem 4rem;
 }
 
@@ -2161,7 +2173,7 @@ body.dark .logo img {
 }
 
 .a-journey-wrapper .row {
-    background: #000;
+    background: var(--cardBackgroundSecondary);
 }
 
 .a-journey-left-content {
@@ -6200,7 +6212,7 @@ display: none;
     .footer-bottom-nav {
         display: none;
     }
-
+    
     .footer-menu-content,
     .footer-address-content,
     .support-rap {
@@ -6218,6 +6230,7 @@ display: none;
     .head-support-btn {
         height: 7rem;
         width: 7rem;
+       
     }
 
     .head-support-btn a {
