@@ -7060,7 +7060,7 @@ display: none;
 
     .career-content {
         bottom: 0;
-        background: #f05c2f;
+        background: var(--purple);
         padding: 2rem 2rem;
         width: 100%;
         position: static;
