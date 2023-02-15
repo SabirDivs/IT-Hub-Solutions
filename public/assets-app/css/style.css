@@ -2681,7 +2681,7 @@ body.dark .logo img {
 }
 
 .support-block:hover {
-    border-color: var(--orange);
+    border-color: var(--purple);
     -webkit-box-shadow: 0 0 6px 0px rgb(103 103 103 / 59%);
     -moz-box-shadow: 0 0 6px 0px rgb(103 103 103 / 59%);
     box-shadow: 0 0 6px 0px rgb(103 103 103 / 59%);
