@@ -811,22 +811,22 @@
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
-                                <li class="footer-social-item">
+                                <!-- <li class="footer-social-item">
                                     <a href="https://twitter.com/" class="footer-social-link" target="_blank">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                </li>
+                                </li> -->
                                 <li class="footer-social-item">
                                     <a href="https://www.instagram.com/" class="footer-social-link" target="_blank">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
-                                <li class="footer-social-item">
+                                <!-- <li class="footer-social-item">
                                     <a href="https://www.linkedin.com/company/" class="footer-social-link"
                                         target="_blank">
                                         <i class="fab fa-linkedin"></i>
                                     </a>
-                                </li>
+                                </li> -->
                                 <li class="footer-social-item">
                                     <a href="https://www.youtube.com/channel" class="footer-social-link"
                                         target="_blank">
@@ -838,11 +838,53 @@
                     </div>
                     <div class="footer-logo-content col-xl-3 col-lg-3 col-md-10 col-sm-10 col-10">
                         <div class="card text-center">
-                            <img src="./public/assets-app/img/logos/hub&solution-footer-logo.png" height="100px"
-                                width="150" alt="IT Hub&Solutions Logo" />
-                            <span class="d-block">We at IT Hub&Solutions aim to add</span>
+                            <style>
+                                @keyframes flipIn {
+                                    0% {
+                                        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+                                        opacity: 0;
+                                    }
+                                    100% {
+                                        transform: perspective(400px);
+                                        opacity: 1;
+                                    }
+                                }
+                                
+                                @keyframes flipOut {
+                                    0% {
+                                        transform: perspective(400px);
+                                        opacity: 1;
+                                    }
+                                    100% {
+                                        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+                                        opacity: 0;
+                                    }
+                                }
+                                
+                                .flipIn {
+                                    animation: flipIn 1s forwards;
+                                }
+                                
+                                .flipOut {
+                                    animation: flipOut 1s forwards;
+                                }
+                            </style>
+                                
+                            <img class="flipIn" src="./public/assets-app/img/logos/hub&solution-footer-logo.png" alt="IT Hub&Solutions Logo" width="250" height="250" />                            <!-- <span class="d-block">We at IT Hub&Solutions aim to add</span>
                             <strong class="d-block bg-br">****</strong>
-                            <span class="d-block"> Into Pakistan's Economy By 2030</span>
+                            <span class="d-block"> Into Pakistan's Economy By 2030</span> -->
+                            <script>
+                                var img = document.getElementById('myImage');
+
+                                // Apply flipIn animation
+                                img.classList.add('flipIn');
+
+                                // Remove flipIn and apply flipOut after 5 seconds
+                                setTimeout(function() {
+                                    img.classList.remove('flipIn');
+                                    img.classList.add('flipOut');
+                                }, 5000);
+                            </script>
                         </div>
                     </div>
                     <div class="footer-menu-content col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
