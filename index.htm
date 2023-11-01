@@ -213,6 +213,21 @@
         <div class="container-fuild">
             <div class="row">
                 <div class="col-12">
+                    <style>
+                        @keyframes rotateImage {
+                          0% {
+                            transform: rotateY(0deg);
+                          }
+                          100% {
+                            transform: rotateY(360deg);
+                          }
+                        }
+                      
+                        .navbar-brand img {
+                          animation: rotateImage 5s linear infinite; /* Adjust duration (5s) and animation behavior as needed */
+                        }
+                      </style>
+                      
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="#"><img src="./public/assets-app/img/logos/hub&solution-logo.png"
                                 style="height: 100px; width: 150px;" alt="hub&solution-logo"></a>
@@ -664,27 +679,27 @@
                         <div class="col-lg-6 col-12">
                             <div class="career-block h-100 height-auto">
                                 <a href="#">
-                                    <img src="" alt="Asim Sikandar—CEO of IT Hub&Solutions" />
+                                    <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Asim Sikandar—Founder of IT Hub&Solutions" />
                                     <div class="career-content">
                                         <h3 class="text-uppercase mb-0">Eng. Asim Sikandar </h3>
-                                        <span>CEO</span>
+                                        <span>Founder TiT Hub & Solutions</span>
                                         <a href="#" class="black-btn">Find out more</a>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-12">
+                        <!-- <div class="col-lg-6 col-12">
                             <div class="career-block h-100 height-auto">
                                 <a href="#">
                                     <img src="" alt="****—Co-Founder of IT Hub&Solutions" />
                                     <div class="career-content">
-                                        <h3 class="text-uppercase mb-0">Faisal Azhar</h3>
+                                        <h3 class="text-uppercase mb-0">abc</h3>
                                         <span>COO & CO-FOUNDER</span>
                                         <a href="#" class="black-btn">Find out more</a>
                                     </div>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -692,7 +707,7 @@
         <!-- End CAREER Wrapper -->
 
         <!-- Start Collaboration Wrapper -->
-        <section class="collaboration-wrapper padd">
+        <!-- <section class="collaboration-wrapper padd">
             <div class="content">
                 <div class="container">
                     <div class="row">
@@ -735,7 +750,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- End Collaboration Wrapper -->
 
         <!-- Start Developments Wrapper -->
@@ -759,7 +774,7 @@
                             <div class="industry-box first d-flex align-items-center">
                                 <div class="top-sec-g">
                                     <h2 class="main-heading-g text-white">our DEVELOPMENTS</h2>
-                                    <p>Established ********** developements onward</p>
+                                    <p>Established Jan 2023 developements onward</p>
                                     <a href="#" class="trans-btn">
                                         View All
                                     </a>
@@ -773,10 +788,10 @@
                                     <h2 class="industry-name">IT Hub&Solutions MARKETPLACE</h2>
                                     <p>IT Hub&Solutions marketplace brings buyers and sellers together on one platform,
                                         giving uniform distribution of resources and income.</p>
-                                    <img class="d-none d-lg-inline-block"
+                                    <!-- <img class="d-none d-lg-inline-block"
                                         src="./public/assets-app/img/logos/hub&solution-logo.png"
                                         alt="IT Hub&Solutions" />
-                                    <i class="fas fa-chevron-down d-block d-lg-none"></i>
+                                    <i class="fas fa-chevron-down d-block d-lg-none"></i> -->
                                 </div>
                             </div>
                         </div>
@@ -903,7 +918,8 @@
                     </div>
                     <div class="footer-logo-content col-xl-3 col-lg-3 col-md-10 col-sm-10 col-10">
                         <div class="card text-center">
-                            <img src="./public/assets-app/img/logos/hub&solution-footer-logo.png" height="100" 
+                              
+                            <img src="./public/assets-app/img/logos/hub&solution-footer-logo.png" class="footer_brand" height="100" 
                                 width="150" alt="IT Hub&Solutions Logo" />
                             <!-- <span class="d-block">We at IT Hub&Solutions aim to add</span>
                             <strong class="d-block bg-br">****</strong>
